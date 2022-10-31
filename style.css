@@ -1,0 +1,231 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+
+body{overflow-x: hidden;
+
+}
+    header{
+      background-color: rgb(10, 102, 167);
+     width: 100%;
+     position: fixed;
+      z-index: 999;
+     padding: 10px 200px;}
+
+
+    
+
+    .nav .pc{
+      color: rgb(255, 255, 255); 
+      font-size: 1.1em;
+      font-weight: 500;
+      padding-right:10px;
+      text-decoration: 30px;
+      visibility: visible;
+      margin:10px ;
+   
+   }
+        .nav-mobil{
+         visibility:hidden;
+         display: none;
+        } 
+/*  عشان button */
+
+
+
+      section { 
+        padding:100px 200px;
+        background-color:rgba(252, 247, 241, 0.603);}
+        /* هدول عشان انزل الكلام من nav bar */
+
+      
+
+      .name {
+         width: 100%;
+         min-height: 100vh;
+/*  vh عشان يغطي كل شي بشاشه */
+         display: flex;
+         align-items: center;
+         background-image:url(o.png);
+         background-size: cover;
+         background-position: center;
+         background-attachment: fixed;
+         padding:0 40px ;
+       }
+
+
+      .name h2{
+         color: rgb(10, 111, 187);
+         font-size: 62px;
+         font-weight: 900;
+         font-family: 'Courgette', cursive;}
+        
+        
+        .name h3{
+          font-size: 42px;
+         font-weight: 850px;
+         font-family: 'Courgette', cursive;  }
+
+        
+     .title{
+       display: flex;
+       justify-content: center  ;
+       background-color: rgba(191, 186, 186, 0.999);
+       color: rgb(5, 5, 24);
+      font-size: 2.2em;
+      font-weight: 900;
+      margin-bottom: 30px;
+      /* يصير فرق بين العنوان والمحتوى */
+      font-family: 'Carter One', cursive;}
+ 
+   
+   .content{
+      display: flex;
+       justify-content: center;
+       flex-direction: row;
+      /* flex-wrap :wrap;  */
+      /* بنزل الكرت لتحت */
+
+ }
+
+
+   .car{
+      background-color: rgba(118, 204, 247, 0.447);
+      width: 500px;
+      box-shadow: 0 5px 25px rgba(67, 53, 192, 0.799);
+      border-radius: 200px;
+      padding: 10px;
+      margin: 35px;
+      }
+   
+         .ic{
+          font-size: 50px; }
+
+        .info{ text-align: center;
+         padding: 25px;
+         margin: 10px;
+        color: rgb(13, 5, 5);
+           /* font-size: 20px;
+           font-weight: 500; */
+        }
+       
+        .list{
+          text-align:center;
+          font-family: 'Alice', serif;
+          font-size: 25px;
+          font-weight: 600;
+           }
+          .pro .content{ margin-top: 20px;}
+
+           .pro-card{
+            background-color: rgb(209, 232, 254);
+               border:  1px solid rgb(165, 213, 235);
+               border-radius: 20px;
+               min-height: 3px;
+               width: 380px;
+               overflow:hidden;
+               margin: 50px;}     
+
+          .pro img img{ width:100% ;}
+
+          .pro-info{ padding: 15px;}
+            
+          .pro-info span{ margin:10px 0px ;}
+            
+
+         .footer{
+            background-color: rgb(10, 102, 167);
+            
+            padding: 20px;
+         }
+/* 
+         .f-title{
+            font-size:30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: azure;
+         } */
+
+         .icon a {
+            color: rgb(237, 220, 220);
+            font-size: 20px;
+            padding: 0px 20px ;}
+
+            a span{ 
+                    font-size: 10px;}
+        
+
+
+
+/* ........................................... */
+/* ........................................... */
+
+
+         @media  ( max-width:1026px)
+            { 
+               body { font-size: 15px;}
+            .nav-mobil{ visibility:visible;
+                 display: inline-block;}
+
+            
+            header { padding:12px 20px;}
+            .nav .pc { visibility: hidden;
+            display: none;}
+            .title{ font-size: 1.8em;}   
+            section{ padding: 80px 20px;}
+            .card{width: 250px;}
+            .name h3{font-size: 30px};
+            .name h2{ font-size: 40px;}
+            .content{flex-direction: column;
+            align-items: center; 
+          } }
+          @media( max-width:450px){
+           .car{width: 270px ;}
+            .list{font-size:25px ;}
+            .name h2 {}}
+
+            .name {
+               width: 100%;
+               min-height: 100vh;
+      /*  vh عشان يغطي كل شي بشاشه */
+               display: flex;
+               align-items: center;
+               background-image:url(o.png);
+               background-size: cover;
+               background-position: center;
+               background-attachment: fixed;
+               padding:0 40px ;
+             }
+      
+      
+
+
+          /* @media (max-width:360px)
+          {  .nav {padding-left: 4px;}
+             .name h3{ font-size: 15px;}
+             .nameh2{font-size: 20px ;} .title{ font-size: 20px;}   
+             section{ padding: 60px 10px;}
+             .card{width: 150px;}
+             
+             .content{flex-direction: column;
+             align-items: center; }} */
+
+           /* @media screen and (min-device-width:210px) and (max-device-width:400px)
+             { .nav a{padding: 9px;}  
+             .name h3{font-size: 15px};
+             .name h2{ font-size: px;} }
+
+          
+      .name{
+        
+         display: flex;
+         align-items: center;
+         background-image:url(o.png);
+         background-size: cover;
+          background-position: center;
+         background-attachment: fixed;
+         padding: 0 50px;
+       } */
