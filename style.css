@@ -14,8 +14,20 @@ body{overflow-x: hidden;
      width: 100%;
      position: fixed;
       z-index: 999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+
      padding: 10px 200px;}
 
+     .logo{ font-family:'Carter One', cursive;
+      font-size: 16px;
+       color: bisque;
+       text-transform: uppercase;
+       font-weight: 500;
+      
+
+   }
 
     
 
@@ -103,7 +115,10 @@ body{overflow-x: hidden;
       }
    
          .ic{
-          font-size: 50px; }
+          font-size: 50px;
+          width: 300px; 
+          margin-bottom: 20px;
+            }
 
         .info{ text-align: center;
          padding: 25px;
@@ -139,7 +154,8 @@ body{overflow-x: hidden;
 
          .footer{
             background-color: rgb(10, 102, 167);
-            
+            display: flex;
+            justify-content: center;
             padding: 20px;
          }
 /* 
