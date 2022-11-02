@@ -10,7 +10,7 @@ body{overflow-x: hidden;
 
 }
     header{
-      background-color: rgb(10, 102, 167);
+      background-color: rgb(72, 102, 128);
      width: 100%;
      position: fixed;
       z-index: 999;
@@ -24,7 +24,7 @@ body{overflow-x: hidden;
       font-size: 16px;
        color: bisque;
        text-transform: uppercase;
-       font-weight: 500;
+       font-weight: 700;
       
 
    }
@@ -35,7 +35,7 @@ body{overflow-x: hidden;
       color: rgb(255, 255, 255); 
       font-size: 1.1em;
       font-weight: 500;
-      padding-right:10px;
+      padding-left:30px;
       text-decoration: 30px;
       visibility: visible;
       margin:10px ;
@@ -54,7 +54,7 @@ body{overflow-x: hidden;
         background-color:rgba(252, 247, 241, 0.603);}
         /* هدول عشان انزل الكلام من nav bar */
 
-      
+      /* #Education{background-color: blanchedalmond;} */
 
       .name {
          width: 100%;
@@ -71,7 +71,7 @@ body{overflow-x: hidden;
 
 
       .name h2{
-         color: rgb(10, 111, 187);
+         color: rgb(38, 95, 142);
          font-size: 62px;
          font-weight: 900;
          font-family: 'Courgette', cursive;}
@@ -79,19 +79,22 @@ body{overflow-x: hidden;
         
         .name h3{
           font-size: 42px;
-         font-weight: 850px;
+         font-weight: 950px;
          font-family: 'Courgette', cursive;  }
 
         
      .title{
        display: flex;
        justify-content: center  ;
-       background-color: rgba(191, 186, 186, 0.999);
+       /* background-color: rgba(191, 186, 186, 0.999); */
        color: rgb(5, 5, 24);
-      font-size: 2.2em;
+      font-size: 4.2em;
       font-weight: 900;
-      margin-bottom: 30px;
+      margin-bottom: 90px;
+
+
       /* يصير فرق بين العنوان والمحتوى */
+
       font-family: 'Carter One', cursive;}
  
    
@@ -99,6 +102,7 @@ body{overflow-x: hidden;
       display: flex;
        justify-content: center;
        flex-direction: row;
+       margin-bottom: -100px;
       /* flex-wrap :wrap;  */
       /* بنزل الكرت لتحت */
 
@@ -106,7 +110,7 @@ body{overflow-x: hidden;
 
 
    .car{
-      background-color: rgba(118, 204, 247, 0.447);
+      background-color: rgba(138, 187, 211, 0.447);
       width: 500px;
       box-shadow: 0 5px 25px rgba(67, 53, 192, 0.799);
       border-radius: 200px;
@@ -119,6 +123,10 @@ body{overflow-x: hidden;
           width: 300px; 
           margin-bottom: 20px;
             }
+            
+#Experience{background-color: rgb(236, 234, 222);}
+
+
 
         .info{ text-align: center;
          padding: 25px;
@@ -128,20 +136,53 @@ body{overflow-x: hidden;
            font-weight: 500; */
         }
        
+      
+        
+
+                 .ca{
+                  
+                  width: 700px;
+                  background-image: url(f.png);
+                  background-size: cover;
+                 
+                  /* border-radius: 200px; */
+                  padding: 40px;
+                  margin: 45px;
+                  }
+
+                  .c{
+                  
+                     width: 700px;
+                     background-image: url(a.png);
+                     
+                     background-size: cover;
+                     /* border-radius: 200px; */
+                     padding: 40px;
+                     margin: 45px;
+                     }
+
+         
+                 
+
+
+
+
+
         .list{
           text-align:center;
           font-family: 'Alice', serif;
           font-size: 25px;
           font-weight: 600;
            }
-          .pro .content{ margin-top: 20px;}
+           .content{ margin-top: 20px;}
 
            .pro-card{
-            background-color: rgb(209, 232, 254);
-               border:  1px solid rgb(165, 213, 235);
-               border-radius: 20px;
-               min-height: 3px;
-               width: 380px;
+            background-color: rgb(168, 183, 197);
+               border:  5px solid rgb(165, 213, 235);
+               border-radius: 30px;
+               
+               min-height: 4px;
+               width: 280px;
                overflow:hidden;
                margin: 50px;}     
 
@@ -150,28 +191,53 @@ body{overflow-x: hidden;
           .pro-info{ padding: 15px;}
             
           .pro-info span{ margin:10px 0px ;}
+
+          #skills{background-color: rgb(231, 224, 215);}
             
+          .skill-content {row-gap: 3.5rem;}
+/*            
+          .skill-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+
+          } */
+           .skills-info ,.skills-data ,.skills-blob{display: grid;
+          }
+            .skills-content{ display: grid;
+                grid-template-columns:repeat(3, 1fr);
+                gap: 2rem 4rem}
+               /* padding: 10px;} */
+
+             .skills-data{justify-content: center;
+                    text-align: center;}
+                    .skills-blob img{
+                     border-radius: 10px;
+                     place-items: cent;
+                    }
+
+           .skills-name {width: "80px";}
+         
+
 
          .footer{
-            background-color: rgb(10, 102, 167);
+            background-color: rgb(91, 125, 149);
             display: flex;
             justify-content: center;
             padding: 20px;
          }
-/* 
-         .f-title{
-            font-size:30px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: azure;
-         } */
+         
 
          .icon a {
             color: rgb(237, 220, 220);
-            font-size: 20px;
+            font-size: 30px;
             padding: 0px 20px ;}
-
+            .icon a:hover{
+             color: thistle;
+            }
             a span{ 
-                    font-size: 10px;}
+                    font-size: 20px;}
         
 
 
@@ -180,7 +246,7 @@ body{overflow-x: hidden;
 /* ........................................... */
 
 
-         @media  ( max-width:1026px)
+   @media  ( max-width:1026px)
             { 
                body { font-size: 15px;}
             .nav-mobil{ visibility:visible;
@@ -198,50 +264,68 @@ body{overflow-x: hidden;
             .content{flex-direction: column;
             align-items: center; 
           } }
-          @media( max-width:450px){
-           .car{width: 270px ;}
-            .list{font-size:25px ;}
-            .name h2 {}}
+   
+         
 
-            .name {
-               width: 100%;
-               min-height: 100vh;
-      /*  vh عشان يغطي كل شي بشاشه */
-               display: flex;
-               align-items: center;
-               background-image:url(o.png);
-               background-size: cover;
-               background-position: center;
-               background-attachment: fixed;
-               padding:0 40px ;
-             }
-      
-      
+               @media (min-width:210px) and (max-width:1200px){
+                  .name{background-image: none;}
+                  }
+             
 
+          @media (max-width:360px)
 
-          /* @media (max-width:360px)
-          {  .nav {padding-left: 4px;}
+          { .ca{
+            width: 300px;
+            background-image: url(f.png);
+            padding: 40px;
+            margin: 45px;
+            }
+
+             .c{
+               width: 300px;
+               background-image: url(a.png);
+               padding: 40px;
+               margin: 45px;
+               }
+               .car{
+                  background-color: rgba(138, 187, 211, 0.447);
+                  width: 300px;
+                  box-shadow: 0 5px 25px rgba(67, 53, 192, 0.799);
+                  border-radius: 200px;
+                  padding: 10px;
+                  margin: 35px;
+                  } 
+            
+                  .name h2{
+                     color: rgb(38, 95, 142);
+                     font-size: 22px;
+                     font-weight: 900;
+                     font-family: 'Courgette', cursive;}
+                    
+            
+            
+            .nav {padding-left: 4px;}
              .name h3{ font-size: 15px;}
              .nameh2{font-size: 20px ;} .title{ font-size: 20px;}   
              section{ padding: 60px 10px;}
              .card{width: 150px;}
-             
-             .content{flex-direction: column;
-             align-items: center; }} */
 
-           /* @media screen and (min-device-width:210px) and (max-device-width:400px)
-             { .nav a{padding: 9px;}  
-             .name h3{font-size: 15px};
-             .name h2{ font-size: px;} }
+
+             .skills-content{ display: grid;
+               grid-template-columns:repeat(2, 1fr);
+               gap: 2rem 4rem}
+              /* padding: 10px;} */
+
+            .skills-data{justify-content: center;
+                   text-align: center;}
+                   .skills-blob img{
+                    border-radius: 10px;
+                    place-items: cent;
+                   }
+
+             
+               }
+
+         
 
           
-      .name{
-        
-         display: flex;
-         align-items: center;
-         background-image:url(o.png);
-         background-size: cover;
-          background-position: center;
-         background-attachment: fixed;
-         padding: 0 50px;
-       } */
